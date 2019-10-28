@@ -27,7 +27,7 @@ data = dict(
     keywords="optimization",
     install_requires=['numpy>=1.15', 'pandas', 'matplotlib', 'scipy'],
     platforms='any',
-    packages=['mootils', 'mootils.analysis', 'mootils.indicator', 'mootils.visualization'],
+    packages=['mootils', 'mootils.analysis', 'mootils.qualityIndicator', 'mootils.visualization'],
     classifiers=[
         'Intended Audience :: Developers',
         'Intended Audience :: Science/Research',
