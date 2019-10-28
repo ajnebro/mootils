@@ -2,8 +2,9 @@ import unittest
 
 import numpy as np
 
-from mootils.indicator.epsilon import EpsilonIndicator
-from mootils.indicator.generational_distance import GenerationalDistance, InvertedGenerationalDistance
+from mootils.qualityIndicator.epsilon import EpsilonIndicator
+from mootils.qualityIndicator.generational_distance import GenerationalDistance
+from mootils.qualityIndicator.inverted_generational_distance import InvertedGenerationalDistance
 
 
 class GenerationalDistanceTestCases(unittest.TestCase):
